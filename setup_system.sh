@@ -7,7 +7,7 @@ sudo dnf install -y https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-non
 sudo dnf update -y
 
 # Install desired packages
-sudo dnf install -y discord polybar rofi vlc neovim kcolorchooser kitty
+sudo dnf install -y discord polybar rofi vlc neovim kcolorchooser kitty flameshot timeshift
 
 # Set hostname to "field"
 sudo hostnamectl set-hostname "field"
