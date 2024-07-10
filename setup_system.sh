@@ -29,9 +29,14 @@ rsync -av /run/media/strwbry/2247-2752/strwbry/.config/i3/ ~/.config/i3/
 rsync -av /run/media/strwbry/2247-2752/strwbry/.config/neofetch/ ~/.config/nitrogen/
 rsync -av /run/media/strwbry/2247-2752/strwbry/.config/wal/ ~/.config/wal/
 rsync -av /run/media/strwbry/2247-2752/strwbry/.config/kitty/ ~/.config/kitty/
-
+ 
 #other home files
 rsync -av /run/media/strwbry/2247-2752/strwbry/Pictures/ ~/Pictures
+
+#rofi
+
+git clone --depth=1 https://github.com/adi1090x/rofi.git
+
 
 echo "Setup completed."
 
