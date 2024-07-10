@@ -21,12 +21,16 @@ sudo pip3 install pywal
 # Set hostname to "field"
 sudo hostnamectl set-hostname "field"
 
+#config files
 rsync -av /run/media/strwbry/2247-2752/strwbry/.config/polybar/ ~/.config/polybar/
 rsync -av /run/media/strwbry/2247-2752/strwbry/.config/rofi/ ~/.config/rofi/
 rsync -av /run/media/strwbry/2247-2752/strwbry/.config/picom/ ~/.config/picom/
 rsync -av /run/media/strwbry/2247-2752/strwbry/.config/i3/ ~/.config/i3/
 rsync -av /run/media/strwbry/2247-2752/strwbry/.config/neofetch/ ~/.config/nitrogen/
 rsync -av /run/media/strwbry/2247-2752/strwbry/.config/wal/ ~/.config/wal/
+
+#other home files
+rsync -av /run/media/strwbry/2247-2752/strwbry/Pictures/ ~/Pictures
 
 echo "Setup completed."
 
